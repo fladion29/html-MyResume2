@@ -1,0 +1,59 @@
+.gradient-background {
+    background: linear-gradient(300deg, #4d4f75, hwb(58 36% 19%), hwb(202 13% 19%));
+    background-size: 180% 180%;
+    animation: gradient-animation 15s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+  
+  .profile-img {
+    height: 200px;
+    border-radius: 50%;
+  }
+
+  .hello {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+  }
+
+  .firstpic {
+    margin-bottom: 30px;
+    margin-top: 0;
+    justify-content: right; 
+    border-radius: 15%;
+}
+
+.edfont {
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    }
+
+    .hskills{
+font-weight: bold;}
+
+.sskills{
+    font-weight: bold;}
+
+.skfont {
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
